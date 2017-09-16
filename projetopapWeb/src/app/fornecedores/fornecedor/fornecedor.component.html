@@ -1,0 +1,21 @@
+<a href="#">
+  <div class="place-info-box">
+    <span class="place-info-box-icon">
+      <img src="https://i.pinimg.com/236x/09/e4/88/09e488cac2b160c9af3870729b564d00--pin-up-girls-cute-girls.jpg"/>
+    </span>
+
+    <div *ngIf="fornecedorModel">
+      
+       <div class="place-info-box-content">
+
+        <span class="place-info-box-text">{{ fornecedorModel.nomeRepresentante }}</span>
+        <br/>
+        <span class="place-info-box-detail"> {{ fornecedorModel.email }} </span>
+        
+        <span class="place-info-box-detail"> {{ fornecedorModel.telefone }} </span>
+        
+        <!--Cliente: <a href="#" (click)="clicked()"> {{clientModel.nome}} </a> -->
+      </div>
+    </div>
+  </div>
+</a>

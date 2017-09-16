@@ -1,0 +1,30 @@
+<div>
+<form class="col s12" (submit)="entrar($event)">
+  
+        <div class="row">
+          <div class="input-field col s12">
+            <input class="validate" type="text" 
+            name = "Email" [(ngModel)]="email">
+    
+            <label for="email">E-mail</label>
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="input-field col s12">
+              <input class="validate" type="text"  
+              name = "senha" [(ngModel)]="senha">
+              <label for="senha">Senha</label>
+          </div>
+        </div>
+      
+        <ul class="left  hide-on-med-and-down">
+        <li><a [routerLink]="['/cadastro']">Cadastrar-se</a></li>
+        <br/>
+        <li><button type="submit" class="waves-effect waves-light btn">Entrar</button>
+        </li>
+        </ul>
+        </form>
+
+    </div>
+    

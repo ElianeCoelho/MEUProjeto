@@ -1,0 +1,101 @@
+<div class="row">
+    
+                
+                  <form class="col s12" (submit)="cadastrar($event)">
+                
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <input class="validate" type="text" 
+                        name = "nome" [(ngModel)]="fornecedor.nomeRepresentante">
+                
+                        <label for="nomeRepresentante">nomeRepresentante</label>
+                      </div>
+                    </div>
+                
+                    <div class="row">
+                      <div class="input-field col s12">
+                          <input class="validate" type="text"  
+                          name = "razaoSocial" [(ngModel)]="fornecedor.razaoSocial">
+                          <label for="razaoSocial">razaoSocial</label>
+                      </div>
+                    </div>
+                
+                    <div class="row">
+                      <div class="input-field col s12">
+                          <input class="validate" type="text"  
+                          name = "cpf_cnpj" [(ngModel)]="fornecedor.cpf_cnpj">
+                          <label for="cpf_cnpj">cpf_cnpj</label>
+                      </div>
+                    </div>
+                
+                
+                    <div class="row">
+                      <div class="input-field col s12">
+                          <input class="validate" type="text" name = "telefone"[(ngModel)]="fornecedor.telefone">
+                          <label for="telefone">Telefone</label>
+                      </div>
+                    </div>
+                
+                
+                    <div class="row">
+                      <div class="input-field col s12">
+                          <input class="validate" type="text" name = "endereco"[(ngModel)]="fornecedor.enderecoEmpresa">
+                          <label for="endereco">endereco</label>
+                      </div>
+                    </div>
+                
+                    <div class="row">
+                      <div class="input-field col s12">
+                          <input class="validate" type="text" name = "numero"[(ngModel)]="fornecedor.numeroEmpresa">
+                          <label for="numero">numero</label>
+                      </div>
+                    </div>
+                
+                    <div class="row">
+                      <div class="input-field col s12">
+                          <input class="validate" type="text" name = "bairro"[(ngModel)]="fornecedor.bairroEmpresa">
+                          <label for="bairro">Bairro</label>
+                      </div>
+                    </div>
+                
+                    <div class="row">
+                      <div class="input-field col s12">
+                          <input class="validate" type="text" name = "cidade"[(ngModel)]="fornecedor.cidadeEmpresa">
+                          <label for="cidade">cidade</label>
+                      </div>
+                    </div>
+                
+                    <div class="row">
+                      <div class="input-field col s12">
+                          <input class="validate" type="text" name = "estado"[(ngModel)]="fornecedor.estado">
+                          <label for="estado">estado</label>
+                      </div>
+                    </div>
+                
+                    <div class="row">
+                      <div class="input-field col s12">
+                          <input class="validate" type="text"  
+                          name = "email" [(ngModel)]="fornecedor.email">
+                          <label for="email">Email</label>
+                      </div>
+                    </div>
+                
+                    <div class="row">
+                      <div class="input-field col s12">
+                          <input class="validate" type="text" name = "senha"[(ngModel)]="fornecedor.senha">
+                          <label for="senha">Senha</label>
+                      </div>
+                    </div>
+                
+                    <div class="row">
+                      <div class="input-field col s12">
+                          <input class="validate" type="text" name = "senha"[(ngModel)]="fornecedor.senha">
+                          <label for="senha">Confirma Senha</label>
+                      </div>
+                    </div>
+                   
+                    <button type="submit" class="waves-effect waves-light btn">Enviar</button>
+                  </form>
+                </div>
+                  
+    
